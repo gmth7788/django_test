@@ -1,0 +1,56 @@
+﻿1) 安装Python
+python2.7
+或者
+python3.4
+
+2) path路径中增加
+C:\Python27\;C:\Python27\Scripts;
+或者
+C:\Python34\;C:\Python34\Scripts;
+
+3) 安装iPython
+pip install ipython
+
+4) 升级pip
+python -m pip install --upgrade pip
+
+5) 启动ipython
+ipython
+
+6）退出ipython
+exit
+
+7） 安装Django
+pip instal Django
+
+验证一下安装已经成功
+C:\Users\wangbin>python
+Python 3.4.3 (v3.4.3:9b73f1c3e601, Feb 24 2015, 22:44:40) [MSC v.1600 64 bit (AM
+D64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import django
+>>> print(django.get_version())
+1.10
+
+
+8）创建项目
+cd D:\wangbin\workspace\django_test
+django-admin startproject test_prj
+
+
+9）运行开发服务器
+cd test_prj
+python manage.py runserver
+或者
+c:\Python27\python.exe manage.py runserver
+
+10）启动浏览器
+http://127.0.0.1:8000/
+
+
+
+
+
+
+
+

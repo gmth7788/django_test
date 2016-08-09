@@ -41,6 +41,8 @@ django-admin startproject test_prj
 9）运行开发服务器
 cd test_prj
 python manage.py runserver
+python manage.py runserver 8080   #更换端口号
+python manage.py runserver 0.0.0.0:8080   #监听所有的公网IP
 或者
 c:\Python27\python.exe manage.py runserver
 
@@ -48,7 +50,9 @@ c:\Python27\python.exe manage.py runserver
 http://127.0.0.1:8000/
 
 
-
+11）创建app
+cd D:\wangbin\workspace\django_test\test_prj
+python manage.py startapp polls
 
 
 
